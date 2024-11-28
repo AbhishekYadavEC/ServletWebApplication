@@ -21,6 +21,39 @@ Provide step-by-step instructions to set up the project. Include prerequisites l
   cd ServletWebApplication
 3. Build the project using Maven:
    mvn clean install
+4. Deploy the WAR file to a Tomcat server:
+   cp target/ServletWebApplication.war $TOMCAT_HOME/webapps
+5. Start the Tomcat server and access the app at:
+   http://localhost:8080/ServletWebApplication.
+
+### **5. Usage**
+   Explain how to use the application. You can include GIFs or screenshots for better visualization.
+      ## Usage
+      1. Navigate to the homepage.
+      2. Register as a new user or log in with your credentials.
+      3. Explore features like dynamic content and database operations.
+
+Add screenshots or demo links:
+   ### Screenshots
+   ![Homepage](https://via.placeholder.com/600x400.png?text=Homepage)
+   ![User Dashboard](https://via.placeholder.com/600x400.png?text=Dashboard)
+
+6. Technologies Used:
+   List the technologies and tools used in your project.
+   ## Technologies Used
+   - **Java 17**
+   - **Maven** for build management
+   - **Tomcat** for deployment
+   - **JSP & Servlets** for backend
+   - **MySQL** for database integration
+
+7. Contributing:
+   ## Contributing
+   Contributions are welcome!  
+   1. Fork the repository.  
+   2. Create a new branch.  
+   3. Make your changes and submit a pull request.  
+
 
 
 
