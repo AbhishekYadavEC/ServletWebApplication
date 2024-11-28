@@ -24,7 +24,7 @@ Provide step-by-step instructions to set up the project. Include prerequisites l
 4. Deploy the WAR file to a Tomcat server:
    cp target/ServletWebApplication.war $TOMCAT_HOME/webapps
 5. Start the Tomcat server and access the app at:
-   [http://localhost:8080/ServletWebApplication.](http://localhost:8040/ServletWebApplication)
+   http://localhost:8040/ServletWebApplication
 
 ### **5. Usage**
    Explain how to use the application. You can include GIFs or screenshots for better visualization.
